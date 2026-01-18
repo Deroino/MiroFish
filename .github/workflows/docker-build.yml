@@ -78,7 +78,7 @@ jobs:
 
       # 构建参数
       build-args: |
-        VITE_API_BASE_URL=/api
+        VITE_API_BASE_URL=
 
       # 构建上下文
       context: "{{defaultContext}}"
@@ -136,7 +136,7 @@ jobs:
 
       # 构建参数
       build-args: |
-        VITE_API_BASE_URL=/api
+        VITE_API_BASE_URL=
 
       # 构建上下文
       context: "{{defaultContext}}"
